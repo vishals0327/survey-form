@@ -1,0 +1,79 @@
+body{
+    margin:40px;
+    background-color: #101820FF;
+    font-family: Calibri, Helvetica, sans-serif;  
+}
+
+*{
+    box-sizing: border-box;
+}
+
+input[type="text"],input[type="email"],input[type="number"]{
+    display:inline-block;
+    width:100%;
+    margin:10px 0;
+    padding:10px;
+}
+
+.form-design{
+    text-align: left;
+    display: inline-block;
+    width: 45%;
+}
+
+.wrap-content{
+    text-align:right;
+    display:inline-block;
+    width: 50%;
+}
+
+.wrap-content.textarea, .wrap-content.checkbox, .wrap-content.radio{
+    vertical-align: top;
+}
+
+.main-content{
+    margin-bottom: 30px;
+}
+
+select{
+    width: 50%;
+    padding:10px;
+    border-radius:10px;
+}
+
+form.form-container{
+    background-color: #F2AA4CFF;
+    text-align: center;
+    width: 1000px;
+    margin:auto;
+    height: 1000px;
+    padding: 10px;  
+}
+
+h1{
+    text-align: center;
+    font-size-adjust: 1.5;
+    color: white;
+}
+
+legend{
+    text-align: left;
+    font-size: 18px;
+    border: 0;
+    font-weight: 600;
+}
+
+fieldset{
+    border-color: #195190FF;
+}
+
+.btn{
+    appearance: none;
+    -webkit-appearance: none;
+    padding: 10px;
+    border: none;
+    background-color: #3CBC8D;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 5px;
+}

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Survey Form</title>
+	<link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+	<h1>Survey Form</h1>
+	<form class="form-container">
+		<fieldset>
+			<legend>Let us know how we can improve freeCodeCamp</legend>
+			<div class="main-content">
+				<div class="wrap-content">
+					<label for="name">*Name:</label>
+				</div>
+				<div class="form-design">
+					<input type="text" required="required" placeholder="Enter your Name">
+				</div>       
+			</div>
+			<div class="main-content">
+				<div class="wrap-content">
+					<label for="email">*Email:</label>
+				</div>
+				<div class="form-design">
+						<input type="email" required="required" placeholder="Enter your Email Address">
+				</div>       
+			</div>
+			<div class="main-content">
+				<div class="wrap-content">
+					<label for="age">*Age:</label>     
+				</div>
+				<div class="form-design">
+						<input type="number" required="required" placeholder="Enter your Age">
+				</div>       
+			</div>
+
+			<div class="main-content">
+				<div class="wrap-content"> 
+					<label>Which option best describes your current role?</label>
+				</div>
+				<div class="form-design">
+					<div>
+						<select name="student" required="required">
+							<option>Select an Option</option>
+							<option value="student">Student</option>
+							<option value="job">Full time Job</option>
+							<option value="learner">Full time learner</option> 
+							<option value="preferNo">Prefer not to say</option> 
+							<option value="others">others</option>    
+						</select>
+					</div>
+				</div>            
+			</div>
+
+			<div class="main-content">
+				<div class="wrap-content radio">
+					<label><span>How likely is that you would recommend freeCodeCamp to a friend?</span></label>
+				</div>
+				<div class="form-design">
+					<div><input name="radio-1" type="radio" required="required"><span><strong>Definitely</strong></span><br></div>
+					<div><input name="radio-1" type="radio" required="required"><span><strong>Maybe</strong></span><br></div>
+					<div><input name="radio-1" type="radio" required="required"><span><strong>Not sure</strong></span></div>
+				</div>
+			</div>
+
+			<div class="main-content">
+				<div class="wrap-content">
+					<label>What do you like most in FCC:</label>
+				</div>
+				<div class="form-design">
+					<select name="student" required="required">
+						<option>Select an Option</option>
+						<option value="challanges">Challanges</option>
+						<option value="projects">Projects</option>
+						<option value="commmunity">Community</option> 
+						<option value="open_source">Open Source</option>                  
+					</select>
+				</div>
+			</div> 
+
+			<div class="main-content">
+				<div class="wrap-content checkbox">
+					<label>Things that should be improved in the future <br>(Check all that apply):</label>
+				</div>
+				<div class="form-design">
+					<div>
+						<input type="checkbox" required="required"><strong>Front-end Projects</strong><br>
+					</div>
+					<div>
+						<input type="checkbox" required="required"><strong>Back-end Projects</strong><br>
+					</div>
+					<div>
+						<input type="checkbox" required="required"><strong>Data Visualization</strong><br>
+					</div>
+					<div> 
+						<input type="checkbox" required="required"><strong>Challenges</strong><br>
+					</div>
+					<div> 
+						<input type="checkbox" required="required"><strong>Open Source Community</strong><br>
+					</div>
+					<div> 
+						<input type="checkbox" required="required"><strong>Glitter help rooms</strong><br>
+					</div>
+					<div>
+						<input type="checkbox" required="required"><strong>Videos</strong><br>
+					</div>
+					<div>
+						<input type="checkbox" required="required"><strong>City Meetups</strong><br>
+					</div>
+					<div>
+						<input type="checkbox" required="required"><strong>Wiki</strong><br>
+					</div>
+					<div>
+						<input type="checkbox" required="required"><strong>Forum</strong><br>
+					</div>
+					<div>
+						<input type="checkbox" required="required"><strong>Additional Courses</strong><br>
+					</div>
+				</div>
+			</div>
+
+			<div class="main-content">   
+				<div class="wrap-content textarea">
+					<label>Any Comments or Suggestions?</label>
+				</div>
+				<div class="form-design">
+					<textarea required="required" rows="5" cols="50" placeholder="Enter your Comments here.."></textarea>
+				</div>
+			</div>
+			<div class="main-content"><input type="submit" class="btn" value="Submit"></div>
+		</fieldset>
+	</form>   
+</body>
+</html>
